@@ -76,7 +76,11 @@ If you're serving frontend from backend (single service):
 
 ✅ **Environment Variables:**
 ```env
-
+MONGODB_URI=mongodb+srv://user:pass@cluster.mongodb.net/grocery_shop
+PORT=5000
+FRONTEND_URL=https://your-app.onrender.com
+JWT_SECRET=your-very-secret-key-change-this-now
+NODE_ENV=production
 ```
 
 ✅ **Build Command:**
